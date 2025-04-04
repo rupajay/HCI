@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Manual</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/styles/Home_page_css.css">
+    <link rel="stylesheet" href="/styles/SUPPORT.css">
+</head>
+<body>
+    <!-- Background Section -->
+    <section class="fix-back-img"></section>
+
+    <!-- Header Section -->
+    <header class="sec-login">
+        <h2 class="logo">HighRoller Hub</h2>
+        <nav class="navigation">
+            <a href="/" class="lines hideOnMobile">Home</a>
+            <div class="dropdown hideOnMobile">
+                <button class="dropbtn">Category</button>
+                <div class="dropdown-content">
+                    <a href="/plans">Plans</a>
+                    <a href="/cars">Cars</a>
+                    <a href="/penthouses">Penthouses</a>
+                    <a href="/yatches">Yachts</a>
+                </div>
+            </div>
+            <a href="/whishlist" class="lines hideOnMobile"><i class="fa-solid fa-heart"></i></a>
+            <a href="/cart" class="lines hideOnMobile">Cart</a>
+            <form action="/logout" method="post" style="display:inline;">
+                <button type="submit" class="btnLogin-popup hideOnMobile">Logout</button>
+            </form>
+            <a href="/profile" class="lines hideOnMobile">Profile</a>
+        </nav>
+        <a href="#" class="last hideOnMobile" onclick="showSidebar()">
+            <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 0 448 512" width="26">
+                <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
+            </svg>
+        </a>
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"><a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 0 384 512" width="26">
+                    <path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/>
+                </svg>
+            </a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/support">Support</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <div class="dropdown">
+                <button class="dropbtn">Category</button>
+                <div class="dropdown-content">
+                    <a href="/plans">Planes</a>
+                    <a href="/cars">Cars</a>
+                    <a href="/penthouses">Penthouses</a>
+                    <a href="/yatches">Yachts</a>
+                </div>
+            </div>
+            <button class="btnLogin-popup">Login</button>
+        </ul>
+    </header>
+
+    <!-- Manual Section -->
+    <section class="manual-section">
+        <h1>Manual</h1>
+        <p>Welcome to the HighRoller Hub support manual. Here you will find guidance on how to use the website and troubleshoot common issues.</p>
+
+        <h2>Getting Started</h2>
+        <p>1. <strong>Register or Log In:</strong> Click on the "Sign Up" or "Log In" button on the homepage. Fill in the required details to create an account or access your existing account.</p>
+        <p>2. <strong>Explore Categories:</strong> Use the navigation bar to browse through categories like Cars, Yachts, Penthouses, and Planes. Each category contains listings with detailed information.</p>
+
+        <h2>How to Add Items to Wishlist or Cart</h2>
+        <p>1. <strong>Find an Item:</strong> Navigate to the item you are interested in by browsing the categories or using the search bar.</p>
+        <p>2. <strong>Add to Wishlist:</strong> Click on the "Add to Wishlist" button to save the item for later.</p>
+        <p>3. <strong>Add to Cart:</strong> If you are ready to purchase, click on the "Add to Cart" button. You can view your cart at any time by clicking the cart icon in the navigation bar.</p>
+
+        <h2>How to Purchase Items</h2>
+        <p>1. <strong>Review Your Cart:</strong> Go to your cart and review the items you have added. Ensure the details and quantities are correct.</p>
+        <p>2. <strong>Proceed to Checkout:</strong> Click on the "Purchase" button. You will be prompted to confirm your payment method and complete the transaction.</p>
+        <p>3. <strong>Transaction Confirmation:</strong> Once the payment is successful, you will receive a confirmation email with the transaction details.</p>
+
+        <h2>How to Sell Items</h2>
+        <p>1. <strong>Go to the Sell Section:</strong> Navigate to the "Sell" section from the navigation bar and select the category of the item you want to sell (e.g., Cars, Yachts).</p>
+        <p>2. <strong>Fill in the Details:</strong> Provide all the required details about the item, including images, price, and description.</p>
+        <p>3. <strong>Submit the Listing:</strong> Click on the "Submit" button to list your item for sale. Your listing will be visible to potential buyers.</p>
+
+        <h2>How to Manage Your Profile</h2>
+        <p>1. <strong>Access Your Profile:</strong> Click on your username in the navigation bar to access your profile page.</p>
+        <p>2. <strong>Edit Profile:</strong> Update your personal details, profile picture, and contact information as needed.</p>
+        <p>3. <strong>View Purchase History:</strong> Check your purchase history to see all completed transactions.</p>
+
+        <h2>Troubleshooting</h2>
+        <p>If you encounter any issues, please contact support via:</p>
+        <ul>
+            <li>Email: support@highrollerhub.com</li>
+            <li>Phone: 1-800-700-900</li>
+            <li>Live Chat: Available 24/7</li>
+        </ul>
+
+        <h2>FAQs</h2>
+        <ul>
+            <li><strong>Q:</strong> How do I reset my password?<br>
+                <strong>A:</strong> Click on the "Forgot Password" link on the login page and follow the instructions to reset your password.
+            </li>
+            <li><strong>Q:</strong> Can I sell multiple items at once?<br>
+                <strong>A:</strong> Yes, you can list multiple items for sale by navigating to the respective "Sell" section for Cars, Yachts, Penthouses, or Planes.
+            </li>
+            <li><strong>Q:</strong> How do I check my purchase history?<br>
+                <strong>A:</strong> Go to your profile page, and you will find a section displaying your purchase history.
+            </li>
+            <li><strong>Q:</strong> What payment methods are supported?<br>
+                <strong>A:</strong> Currently, we support credit/debit cards and wallet balance for transactions.
+            </li>
+            <li><strong>Q:</strong> How do I contact the seller?<br>
+                <strong>A:</strong> Seller contact details are available on the item details page.
+            </li>
+        </ul>
+
+        <h2>Additional Support</h2>
+        <p>If you need further assistance, here are some additional resources:</p>
+        <ul>
+            <li><strong>Live Chat:</strong> Use the chatbot below for instant help.</li>
+            <li><strong>Community Forum:</strong> Join discussions and get help from other users.</li>
+            <li><strong>Documentation:</strong> Visit our <a href="/docs">documentation page</a> for detailed guides.</li>
+        </ul>
+
+        <h2>Tips for a Better Experience</h2>
+        <ul>
+            <li>Ensure your profile is complete with accurate contact details for smooth transactions.</li>
+            <li>Use filters on the "Buy" pages to narrow down your search results.</li>
+            <li>Regularly check your wishlist and cart to avoid missing out on deals.</li>
+            <li>Keep your wallet balance topped up for quick purchases.</li>
+        </ul>
+    </section>
+
+    <!-- Chatbot Section -->
+    <section class="chatbot-section">
+        <h2>Need Help? Ask</h2>
+        <div id="chatbot-container">
+            <div id="chatbot-messages" style="border: 1px solid #ccc; padding: 10px; height: 200px; overflow-y: auto; background-color: #f9f9f9; color: #000;"></div>
+            <input type="text" id="chatbot-input" placeholder="Type your question here..." style="color: #000;" />
+            <button id="chatbot-send">Send</button>
+        </div>
+    </section>
+
+    <script>
+        const predefinedAnswers = {
+            "how do i register?": "To register, click on the 'Sign Up' button on the homepage.",
+            "how do i purchase items?": "To purchase an item, go to your cart and click 'Purchase'.",
+            "how do i add items to wishlist?": "Navigate to the item you want and click 'Add to Wishlist'.",
+            "how do i contact support?": "You can contact support via email at support@highrollerhub.com or call 1-800-700-900.",
+        };
+
+        async function sendMessage() {
+            let userInput = document.getElementById("chatbot-input").value.trim();
+            let chatMessages = document.getElementById("chatbot-messages");
+
+            if (userInput !== "") {
+                // Display user message
+                let userMessage = `<p><strong>You:</strong> ${userInput}</p>`;
+                chatMessages.innerHTML += userMessage;
+                chatMessages.scrollTop = chatMessages.scrollHeight; // Auto-scroll to the latest message
+                document.getElementById("chatbot-input").value = "";
+
+                // Simulate a delay for bot response
+                setTimeout(() => {
+                    let botMessage;
+                    if (predefinedAnswers[userInput.toLowerCase()]) {
+                        botMessage = `<p><strong>Bot:</strong> ${predefinedAnswers[userInput.toLowerCase()]}</p>`;
+                    } else {
+                        botMessage = `<p><strong>Bot:</strong> Sorry, I don't have an answer for that. Please contact support.</p>`;
+                    }
+                    chatMessages.innerHTML += botMessage;
+                    chatMessages.scrollTop = chatMessages.scrollHeight; // Auto-scroll to the latest message
+                }, 500); // Simulated delay of 500ms
+            }
+        }
+
+        // Add event listener for the send button
+        document.getElementById("chatbot-send").addEventListener("click", sendMessage);
+
+        // Allow pressing Enter to send a message
+        document.getElementById("chatbot-input").addEventListener("keypress", function (event) {
+            if (event.key === "Enter") {
+                sendMessage();
+            }
+        });
+    </script>
+
+</body>
+</html>

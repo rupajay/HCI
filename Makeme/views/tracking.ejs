@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracking</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/tracking.css">
+</head>
+<body>
+    <section class="fix-back-img"></section>
+    <section class="sec-login">
+        <h2 class="logo">HighRoller Hub</h2>
+        <nav class="navigation">
+            <a href="/" class="lines hideOnMobile">Home</a>
+            <div class="dropdown hideOnMobile">
+                <button class="dropbtn">Category</button>
+                <div class="dropdown-content">
+                    <a href="/plans" class="hideOnMobile">Plans</a>
+                    <a href="/cars" class="hideOnMobile">Cars</a>
+                    <a href="/penthouses" class="hideOnMobile">Penthouses</a>
+                    <a href="/yatches" class="hideOnMobile">Yachts</a>
+                </div>
+            </div>
+            
+                <a href="/whishlist" class="lines hideOnMobile"><i class="fa-solid fa-heart"></i></a>
+                <a href="/cart" class="lines hideOnMobile">Cart</a>
+                <form action="/logout" method="post" style="display:inline;">
+                    <button type="submit" class="btnLogin-popup hideOnMobile">Logout</button>
+                </form>
+            
+            <a href="/profile" class="lines hideOnMobile">Profile</a>
+        </nav>
+        <a href="#" class="last hideOnMobile" onclick="showSidebar()">
+            <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 0 448 512" width="26">
+                <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
+            </svg>
+        </a>
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"><a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 0 384 512" width="26">
+                    <path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/>
+                </svg>
+            </a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact</a></li>
+            <div class="dropdown">
+                <button class="dropbtn">Category</button>
+                <div class="dropdown-content">
+                    <a href="#">Planes</a>
+                    <a href="#">Cars</a>
+                    <a href="#">Penthouses</a>
+                    <a href="#">Yachts</a>
+                </div>
+            </div>
+            <button class="btnLogin-popup">Login</button>
+        </ul>
+    </section>
+    
+    <section>
+        <section id="tracking-info">
+            <h2>Track Your Progress</h2>
+            <p>Your order is currently being processed. Below are the details of your order's journey:</p>
+            <ul class="tracking-details">
+                <li><strong>Order ID:</strong> 123456789</li>
+                <li><strong>Order Date:</strong> 2023-09-01</li>
+                <li><strong>Estimated Delivery:</strong> 2023-09-03</li>
+                <li><strong>Current Status:</strong> Shipped</li>
+            </ul>
+        </section>
+        <section id="order-tracking">
+            <h2>Where is Your Order?</h2>
+            <div class="tracking-path">
+                <div class="step completed">
+                    <div class="circle">1</div>
+                    <div class="text">
+                        <p class="step-title">Order Placed</p>
+                        <p class="step-location">Ahmedabad, India</p>
+                        <p class="step-datetime">Date: 2023-09-01</p>
+                        <p class="step-time">Time: 10:00 AM</p>
+                    </div>
+                </div>
+                <div class="step completed">
+                    <div class="circle">2</div>
+                    <div class="text">
+                        <p class="step-title">Shipped</p>
+                        <p class="step-location">Mumbai, India</p>
+                        <p class="step-datetime">Date: 2023-09-02</p>
+                        <p class="step-time">Time: 02:00 PM</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="circle">3</div>
+                    <div class="text">
+                        <p class="step-title">Out for Delivery</p>
+                        <p class="step-location">Pune, India</p>
+                        <p class="step-datetime">Date: 2023-09-03</p>
+                        <p class="step-time">Time: 09:00 AM</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="circle">4</div>
+                    <div class="text">
+                        <p class="step-title">Delivered</p>
+                        <p class="step-location">Your Address</p>
+                        <p class="step-datetime">Date: 2023-09-03</p>
+                        <p class="step-time">Time: 05:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+</body>
+</html>

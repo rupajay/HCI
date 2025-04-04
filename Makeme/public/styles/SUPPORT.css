@@ -1,0 +1,395 @@
+/* Base styles consistent with other pages */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.fix-back-img {
+    background: url('Assets/background_1.jpg') no-repeat center center fixed; /* Fixed background */
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    z-index: -20;
+    border: none; /* Ensure no border is applied */
+    box-shadow: none; /* Remove any shadow */
+}
+
+.sec-login{
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    color: white;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.navigation a {
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+    position: relative;
+}
+
+.navigation a:hover::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: white;
+    border-radius: 5px;
+    transform-origin: left;
+    transform: scaleX(1);
+    transition: transform 0.5s;
+}
+
+.navigation .btnLogin-popup {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.navigation .btnLogin-popup:hover {
+    background-color: white;
+    color: black;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+    
+.dropbtn {
+    font-size: 1.1em;
+    color: white;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight: 500;
+}
+    
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    min-width: 160px;
+    margin-left: -5px;
+    margin-top: 2px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+}
+    
+.dropdown-content a {
+    color: white;
+    padding-top: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+}
+    
+.dropdown .dropbtn{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: white;
+    font-weight: 500;
+    transition: 0.5s;
+}
+    
+.dropdown .dropbtn:hover{
+    background-color: white;
+    color: black;
+}
+    
+.dropdown-content a:last-child{
+    padding-bottom: 10px;
+}
+    
+.dropdown-content a:hover {
+    background: transparent;
+    transform: none;
+    transition: none;
+}
+    
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+    
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+    
+.sidebar li{
+    width: 100%;
+    list-style-type: none;
+    padding: 5px;
+}
+    
+.sidebar a{
+    width: 100%;
+}
+    
+.last{
+    display: none;
+}
+    
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
+    .last{
+        display: block;
+    }
+}
+    
+@media(max-width: 400px){
+    .sidebar{
+        width: 100%;
+    }
+}
+
+/* General layout adjustments for consistency with profile.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background: url('Assets/background_1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+    backdrop-filter: blur(10px); /* Blur effect for consistency */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border */
+}
+
+/* Header styling */
+section.sec-nav {
+    width: 100%;
+    background: transparent;
+    color: white;
+    font-size: 1rem;
+    padding: 20px 100px;
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    z-index: 2;
+}
+
+section.sec-nav h1 {
+    font-size: 2rem;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile span {
+    margin-right: 20px;
+    font-size: 1.2rem;
+}
+
+.logout-btn {
+    padding: 10px 15px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1rem;
+}
+
+.logout-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+h1, h2 {
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.manual-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #222;
+}
+
+.manual-section h2 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #5c5a5a;
+}
+
+.manual-section p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.manual-section ul {
+    margin: 15px 0;
+    padding-left: 25px;
+}
+
+.manual-section ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.manual-section {
+    text-align: left;
+    background: transparent;
+    color: white;
+    padding: 30px;
+    border: 1px solid #ddd;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow for consistency */
+    border-radius: 12px; /* Match rounded corners */
+    margin-top: 120px; /* Add margin to prevent overlap with the header */
+}
+
+.manual-section a {
+    color: #0056b3;
+}
+
+.manual-section a:hover {
+    color: #003d80;
+}
+
+/* Chatbot section styling */
+.chatbot-section {
+    margin-top: 30px;
+    padding: 20px;
+    background: transparent;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.5); /* Add a visible border */
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+#chatbot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+#chatbot-messages {
+    width: 100%;
+    height: 250px;
+    overflow-y: auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    font-size: 1rem;
+    color: #333;
+}
+
+#chatbot-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+#chatbot-send {
+    width: 100%;
+    padding: 12px;
+    background-image: linear-gradient(135deg, rgb(228, 164, 228), pink, rgb(228, 164, 228));
+    color: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#chatbot-send:hover {
+    background: transparent;
+    color: rgb(255, 255, 255);
+    /* transform: scale(1.05); */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+#chatbot-send:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
