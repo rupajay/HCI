@@ -58,22 +58,11 @@ This website facilitates the buying and selling of luxury properties like pentho
 - **Virtual Currency Management**
 - **Bcrypted Password Protection**
 - **Search with Filters**
-![WhatsApp Image 2024-08-06 at 23 42 00_31e0cef2](https://github.com/user-attachments/assets/5eb5caa4-185a-4db4-b99a-07363631fb39)
-![WhatsApp Image 2024-08-06 at 23 42 31_eb45d10e](https://github.com/user-attachments/assets/5a2ffba4-17f0-46a6-97cd-3ee6c34c0350)
-![WhatsApp Image 2024-08-06 at 23 42 46_f586d3f4](https://github.com/user-attachments/assets/8fc72274-65d6-4bd8-b0f7-eb23b1ffb36a)
-![WhatsApp Image 2024-08-06 at 23 43 02_010e9aa1](https://github.com/user-attachments/assets/598d5413-b8da-44bd-a672-a0028553d733)
-![WhatsApp Image 2024-08-06 at 23 43 43_165025b6](https://github.com/user-attachments/assets/95f3edaf-e77a-43ca-bee6-daf78ece8b5c)
-![WhatsApp Image 2024-08-06 at 23 46 06_22067e3e](https://github.com/user-attachments/assets/95a4833a-4965-4b3c-a2da-24d03b4acd82)
-![WhatsApp Image 2024-08-06 at 23 46 16_a4fede17](https://github.com/user-attachments/assets/57d2573b-42d2-45b6-904d-6b5c8dce4c7d)
-![WhatsApp Image 2024-08-06 at 23 46 25_da5fed3c](https://github.com/user-attachments/assets/0a88c7d0-3986-4948-9413-b762db010187)
-![WhatsApp Image 2024-08-06 at 23 47 01_48b3e225](https://github.com/user-attachments/assets/d17355d5-3871-455e-a373-718b31ba4641)
-![WhatsApp Image 2024-08-06 at 23 47 01_b2921007](https://github.com/user-attachments/assets/7b0c84a0-7191-4dd7-bff6-b730d81c94ef)
-![Screenshot (33)](https://github.com/user-attachments/assets/e2434ca3-3298-4d57-9364-4c108f48bb02)
-![Screenshot (34)](https://github.com/user-attachments/assets/5c677fad-07a5-490d-ac12-923d9cc92563)
-![Screenshot (29)](https://github.com/user-attachments/assets/15bcffe2-6b6f-40ae-8a5f-447032f80ed4)
-![Screenshot (35)](https://github.com/user-attachments/assets/fa1993a0-a2f6-4085-af4a-2dd67cc2e805)
-![Screenshot (38)](https://github.com/user-attachments/assets/a10fcbc7-8611-4c61-901c-0c334e54cdfc)
-![Screenshot (41)](https://github.com/user-attachments/assets/405bc70d-5b23-4634-811a-b51e57ab1749)
+
+![Screenshot 2025-04-04 161752](https://github.com/user-attachments/assets/05c4a314-1f26-4ebd-a634-60d2f5cc445f)
+![Login](https://github.com/user-attachments/assets/c5394d05-1519-4f44-8cd0-67e98e545755)
+![Screenshot 2025-04-04 154057](https://github.com/user-attachments/assets/e106b582-5b4a-433c-be28-d640d8e9fe7e)
+
 
 
 
