@@ -62,6 +62,17 @@ This website facilitates the buying and selling of luxury properties like pentho
 ![Screenshot 2025-04-04 161752](https://github.com/user-attachments/assets/05c4a314-1f26-4ebd-a634-60d2f5cc445f)
 ![Login](https://github.com/user-attachments/assets/c5394d05-1519-4f44-8cd0-67e98e545755)
 ![Screenshot 2025-04-04 154057](https://github.com/user-attachments/assets/e106b582-5b4a-433c-be28-d640d8e9fe7e)
+![Screenshot 2025-04-04 162001](https://github.com/user-attachments/assets/3ba2646f-d248-4be0-a4f7-3d8535f52b99)
+![Screenshot 2025-04-04 163348](https://github.com/user-attachments/assets/5f8b8630-e3e7-452f-9213-87a7ef30d731)
+![Screenshot 2025-04-04 163636](https://github.com/user-attachments/assets/45ba37cf-503a-4382-bf31-e6ecf43a07b7)
+![Screenshot 2025-04-04 171658](https://github.com/user-attachments/assets/b8470fab-4fda-4be3-a88b-d97c457cb963)
+![Screenshot 2025-04-04 165912](https://github.com/user-attachments/assets/5a19f658-b274-4543-8be8-52cef48c8c77)
+![Screenshot 2025-04-04 170755](https://github.com/user-attachments/assets/1d5d5080-46f7-4ee4-9eae-a46fe8619047)
+![Screenshot 2025-04-04 173104](https://github.com/user-attachments/assets/a4b6ea8c-ec18-4d55-85d9-4d428454ec18)
+![Screenshot 2025-04-04 173202](https://github.com/user-attachments/assets/d384eece-cae7-4a58-a979-3ac1c97bc377)
+![Screenshot 2025-04-04 173522](https://github.com/user-attachments/assets/fe43260c-c346-4445-a304-6b18a908c089)
+![Screenshot (41)](https://github.com/user-attachments/assets/1bac895a-e458-4790-ac90-a9ca7b5c6f5c)
+![Screenshot 2025-04-04 174600](https://github.com/user-attachments/assets/d0debc1d-e3a6-48b4-a857-32bb89bd38f1)
 
 
 
