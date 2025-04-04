@@ -20,8 +20,9 @@ This website facilitates the buying and selling of luxury properties like pentho
 4. **Buying Process:**
    - Click the "Buy" button to navigate to the buy page, where all items are displayed.
    - On the buy page, users can click on any item card to view details.
-   - Users have two options: **Add to Cart** or **Buy Now**.
+   - Users have three options: **Add to Cart** or **Buy Now** or **Add to Wishlist**.
    - Items added to the cart are displayed on the cart page with their prices.
+   - Items added to the wishlist are displayed on the wishlist page with their prices.
    - Purchased items appear in the purchase history.
    - Users can only buy items if they have sufficient balance.
    - The user balance updates automatically after each purchase.
@@ -42,6 +43,16 @@ This website facilitates the buying and selling of luxury properties like pentho
 7. **Categories:**
    - The website features four categories: Cars, Planes, Penthouses, and Yachts.
    - Filters are available for each category to refine searches.
+  
+8. **Track Order**
+   - Allows buyers to track their purchased items in real-time.
+   - Displays order status (e.g., Processing, Shipped, Delivered).
+   - Provides details on estimated delivery times and transaction history.
+     
+9. **Support System**
+   - A dedicated section where users can seek assistance regarding purchases, account issues, or general inquiries.
+   - Features an FAQ section, a contact form, and possibly a live chat or ticketing system.
+   - Ensures a smooth user experience by addressing concerns efficiently.
 
 ## Features
 - **Authentication**
